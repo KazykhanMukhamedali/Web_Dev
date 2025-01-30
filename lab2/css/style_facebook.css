@@ -1,0 +1,115 @@
+body{
+    background: #f2f4f7;
+    margin:0;
+    padding:0;
+    font-family: inherit;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    
+
+}
+.left {
+    margin-top: 100px;
+}
+.logo {
+    max-width: 320.94px;
+    max-height: 50.578px;
+   
+}
+img{
+    height: 106px;
+    margin: -28px;
+
+}
+.f_soz {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    color: #1c1e21;
+    
+}
+.right {
+   
+}
+
+.login {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+   
+}
+form{
+    
+
+}
+.login input{
+    width: 93%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.button_log{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+}
+
+
+.link {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+
+}
+
+.syzyk {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.creating {
+    width: 60%;
+    padding: 12px;
+    margin: 20px 75px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #38a522;
+    color: white;
+    font-weight: bold;
+}
+.text {
+    margin-top: 28px;
+    text-align: center;
+    font-weight: 400;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+

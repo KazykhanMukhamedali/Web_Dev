@@ -1,0 +1,148 @@
+body{
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: #616161;
+    margin-top: 1px;
+    padding: 30px 0px 20px;
+    height: 48px;
+    font-size: 13px;
+
+}
+.nav-right a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #616161;
+    margin-top: 1px;
+    padding: 16px 8px 10px;
+    height: 48px;
+    font-size: 15px;
+}
+
+.main_page {
+    min-height: 591px;
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.welcome {
+    max-width: 421px;
+    padding: 178px;
+    margin-top: -50px;
+}
+.welcome_title {
+    font-size: 1.825em;
+}
+.welcome_text {
+    margin-top: 24px;
+    line-height: 1.5;
+}
+button{
+    background-color: rgb(11, 97, 201);
+    border:0px;
+    padding: .625rem .75rem;
+}
+.welcome_button a {
+    margin-top: 10px;
+    color:white;
+    padding: .625rem .75rem;
+    font-size: 1rem;
+    font-weight: 600px;
+    text-decoration: none;
+}
+.main_img {
+    margin-top: -30px;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+}
+.main_img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    margin-top: -15px;
+    color: #333;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-column {
+    width: 200px;
+    margin-bottom: 20px;
+    
+}
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 0;
+
+}
+.footer-column ul li {
+    margin-bottom: 15px;
+}
+.footer-column ul li a {
+    text-decoration: none;
+    color: #616161;
+
+
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+}
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #616161;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 0;
+}
