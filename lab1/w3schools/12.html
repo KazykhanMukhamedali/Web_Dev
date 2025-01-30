@@ -1,0 +1,102 @@
+LINKS
+1)What is a correct syntax for an HTML hyperlink?
+<a href='/home.htm'>Visit W3Schools.com!</a>
+
+2)Use the correct HTML to make the text below into a link to "default.html".
+<ahref="default.html">Visit our HTML tutorial.</a>
+
+3)Use the correct HTML attribute to make the link open in a new window.
+<a href="html_images.asp" target="_blank">HTML Images</a>
+
+4)Use the correct HTML to make the image become a link to "default.html".
+<ahref="default.html"><img src="smiley.gif"></a>
+
+
+LINK COLORS
+1)True or False. By default all hyperlinks are underlined.
+True
+
+2)Use CSS to remove the underline from the link.
+<a href="html_images.asp" style="text-decoration:none;">HTML Images</a>
+
+3)What is a correct syntax for making a link red when you mouse over it?
+<style>a:hover {color:red}</style>
+
+
+BOOKMARKS
+1)What HTML attribute is used to create a bookmark?
+The id attribute
+
+2)Add a link to a bookmark, on the same page, with the id="mytext".
+<a href="#mytext">Jump to new text</a>
+
+3)What is a correct syntax for linking to a bookmark named C4 on another page?
+<a href='demo.html#C4'>Jump to Chapter 4</a>
+
+
+IMAGES
+1)What is a correct HTML element for adding an image?
+The <img> element
+
+2)Use the HTML image attributes to set the size of the image to 250 pixels wide and 400 pixels tall.
+<img src="scream.png" width="250" height="400">
+
+3)Use CSS to set the size of the image to 250 pixels wide and 400 pixels tall.
+<img src="scream.png" style="width:250px;height:400px;">
+
+4)Use the correct HTML to make the image become a link to "default.html".
+<ahref="default.html"><img src="smiley.gif"></a>
+
+5)Make the image below float to the right of the paragraph.
+<p>
+<img src="smiley.gif" style="float:right;">
+This is a paragraph.This paragraph contains an image
+</p>
+
+6)Add the correct HTML attribute to display the "smiley.gif" image.
+<img src="smiley.gif">
+
+7)Specify an alternate text for the image.
+The alternate text should say "Smiley".
+Alternate text is useful when the image cannot be displayed, like when the page is read by a screen reader.
+<img src="smiley.gif" alt="Smiley">
+
+
+
+IMAGE MAP
+1)What is a correct HTML element for defining an image map?
+The <map> element
+
+2)What is another HTML element used when defining image maps?
+The <area> element
+
+3)For image maps, specify a legal value for the area tag's shape attribute.
+(Any legal value will give a correct answer)
+<area shape="default" href="default.html">
+
+
+BACKGROUND IMAGES
+1)What is a correct CSS property for defining background images?
+The background-image property
+
+2)To add a background image on an entrire HTML page, on which element should you specify the background image?
+The <body> element
+
+3)Add a background image named "myimage.png" on a HTML element.
+<p style="background-image: url('myimage.png')">
+
+
+PICTURE
+1)One of these elements is NOT a legal HTML element, which one?
+The <image> element
+
+2)Consider the following code:
+<picture>
+  <source srcset='avatar.png'>
+  <source srcset='mustang.jpg'>
+</picture>
+What will be the result if the browser supports both images?
+Only the first image will be displayed
+
+3)True or False. An <img> element inside a <picture> element wil always be prioritised before any image defined in a <source> element.
+False
