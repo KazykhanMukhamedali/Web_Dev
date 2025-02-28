@@ -1,0 +1,10 @@
+<a [routerLink]="['../']">Back</a>
+<h3>Album #{{album.id}}</h3>
+
+<p>{{album.title}}</p>
+
+<input type="text" placeholder="{{album.title}}" [(ngModel)]="title">
+<button (click)="saveTitle()">Save</button>
+<br>
+
+<a routerLink="photos">Photo</a>

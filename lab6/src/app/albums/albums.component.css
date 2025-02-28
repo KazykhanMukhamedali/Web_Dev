@@ -1,0 +1,88 @@
+button {
+  background-color: rgb(220, 80, 64);
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+button:hover {
+  color: blue;
+  background-color: white;
+}
+
+#add {
+  background-color: lightblue;
+  border-radius: 10px;
+  border: none;
+}
+
+li {
+  margin: 10px;
+}
+
+fieldset {
+  display: flex;
+  width: 260px;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+
+p {
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+
+li {
+  border: 1px solid black;
+  width: 600px;
+  padding: 10px;
+  list-style: none;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #1c1e21;
+}
+
+li:hover a {
+  color: white;
+}
+
+a{
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  color: #1c1e21;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+a:hover {
+  color: red;
+}

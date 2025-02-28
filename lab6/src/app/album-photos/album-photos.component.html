@@ -1,0 +1,5 @@
+<a [routerLink]="['../']">Back</a>
+<div *ngFor="let img of photo">
+    <h2>#{{img.id}}<br>{{img.title}}</h2>
+    <img src={{img.thumbnailUrl}}>
+</div>
