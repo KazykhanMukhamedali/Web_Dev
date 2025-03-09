@@ -1,0 +1,25 @@
+<div class="task-card" [ngClass]="{'completed': task.status === 'Completed'}">
+    <div class="task-header">
+      <h3>{{ task.title }}</h3>
+      <span class="category-badge" [ngClass]="task.category.toLowerCase()">
+        {{ task.category }}
+      </span>
+    </div>
+    <p class="description">{{ task.description }}</p>
+    <div class="task-footer">
+      <div class="deadline">
+        <i class="fas fa-calendar-alt"></i>
+        {{ task.deadline | date: 'shortDate' }}
+      </div>
+      <a [routerLink]="['/tasks', task.id]" class="details-link">
+        View Details <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+    <button 
+      class="complete-btn" 
+      (click)="markAsCompleted()"
+      [disabled]="task.status === 'Completed'"
+    >
+      {{ task.status === 'Completed' ? 'Completed' : 'Mark Complete' }}
+    </button>
+  </div>

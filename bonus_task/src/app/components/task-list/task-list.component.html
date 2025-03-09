@@ -1,0 +1,10 @@
+<div class="task-list-container">
+    <h1 class="header">My Tasks</h1>
+    <div class="task-grid">
+      <app-task-item 
+        *ngFor="let task of tasks"
+        [task]="task"
+        (taskCompleted)="handleTaskCompleted(task.id)"
+      ></app-task-item>
+    </div>
+  </div>

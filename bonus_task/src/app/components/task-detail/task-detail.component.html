@@ -1,0 +1,27 @@
+<div class="task-detail-container">
+    <a routerLink="/" class="back-link">
+      <i class="fas fa-arrow-left"></i> Back to Tasks
+    </a>
+    <div class="task-detail-card">
+      <div class="detail-header">
+        <h1>{{ task.title }}</h1>
+        <span class="category-badge" [ngClass]="task.category.toLowerCase()">
+          {{ task.category }}
+        </span>
+      </div>
+      <p class="description">{{ task.description }}</p>
+      
+      <div class="detail-row">
+        <div class="detail-item">
+          <label>Status</label>
+          <p [ngClass]="{'status-completed': task.status === 'Completed'}">
+            {{ task.status }}
+          </p>
+        </div>
+        <div class="detail-item">
+          <label>Deadline</label>
+          <p>{{ task.deadline | date: 'fullDate' }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
